@@ -22,7 +22,7 @@ header{
 nav{
     /* border: 1px solid red; */
     min-height: 80px;
-    width: 72%;
+    width: 69%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -69,7 +69,7 @@ a{
     /* border: 1px solid red; */
     width: 50%;
     display: flex;
-    /* justify-content: flex-end; */
+    /* border: 1px solid red; */
     
 }
 
@@ -94,6 +94,9 @@ p{
     font-size: 16px;
     font-weight: 400;
     margin-top: 10px;
+    color: #2c1402;
+    /* border: 1px solid red; */
+    width: 112%;
 }
 
 button{
