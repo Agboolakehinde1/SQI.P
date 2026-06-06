@@ -55,7 +55,7 @@ a{
 .hero-section{
     /* border: 1px solid red; */
     min-height: 50dvh;
-    background-image: linear-gradient(to right,white, #FFFDF3);
+    background-image: linear-gradient(to right,white, #fffdf3);
 }
 
 .hero-section>div{
@@ -87,7 +87,7 @@ a{
 .h2{
     font-size: 64px;
     font-weight: 700;
-    color: #00208a;
+    color: #05154d;
 }
 
 p{
@@ -99,7 +99,7 @@ p{
     width: 112%;
 }
 
-button{
+.button1{
     height: 50px;
     width: 120px;
     border-radius: 10px;
@@ -116,3 +116,77 @@ button{
 .hero-img{
     height: 500px;
 }
+
+.second-sec{
+    border: 1px solid red;
+    margin-top: 60px;
+    min-height: 50dvh;
+
+}
+
+.p1{
+    border: 1px solid red;
+    width: 70%;
+    margin: auto;
+    color: #050754;
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.parent1{
+    border: 1px solid red;
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    gap: 88px;
+   
+    
+}
+
+.img1{
+    width: 310px;
+}
+
+
+.p2{
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 25px;
+}
+
+.innerp{
+    width: 27.05%;
+    
+}
+
+.innerp1{
+    width: 27%;
+    
+}
+
+.innerp2{
+    width: 26%;
+    
+}
+
+h3{
+    margin-top: 30px;
+}
+
+.button2{
+    margin-top: 40px;
+    background-color: none;
+   border: none;
+   background: transparent;
+   border-bottom: 3px solid;
+}
+
+
+.a1{
+    font-size: 16px;
+    font-weight: 500;
+    color: #182539;
+    
+}
+
