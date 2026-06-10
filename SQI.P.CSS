@@ -545,7 +545,7 @@ hr{
     background-image: url(./Media/DSC_9054-scaled.jpg);
     background-position: center;
     background-size: cover;
-    margin-top: 15%;
+    margin-top: 12%;
 }
 
 .parent4{
@@ -629,6 +629,12 @@ hr{
     border: 1px solid red;
     font-size: 38px;
     font-weight: 600;
+    height: fit-content;
+    margin-left: 50px;
+    width: 500px;
+    margin-bottom: 20%;
+    padding-left: 4%;
+    
 }
 
 
@@ -636,20 +642,24 @@ hr{
     border: 1px solid red;
     min-height: 50dvh;
     width: 30%;
+    margin-top: 9%;
 }
 .third-cont>div{
     border: 1px solid red;
     min-height: 20dvh;
+    width: 90%;
    
 }
 .forth-cont{
     border: 1px solid red;
     min-height: 50dvh;
     width: 30%;
+    margin-top: 20%;
 }
 .forth-cont>div{
     border: 1px solid red;
     min-height: 20dvh;
+    width: 85%;
     
 }
 .fifth-cont{
@@ -657,7 +667,67 @@ hr{
     min-height: 70dvh;
     width: 30%;
     background-image: url(https://edu.sqi.ng/wp-content/uploads/2023/01/conference_image_15.jpg);
-    background-position: center;
+    /* background-position: center; */
+    /* background-repeat: none; */
+}
+
+
+
+
+.s-s-p{
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+.tcfd{
+
+
+}
+
+.tcsd{
+    margin-top: 35%;
+
+}
+
+
+
+
+.tctd{
+    margin-top: 35%;
+
+}
+
+.tcforthd{
+    margin-top: 35%;
+
+}
+
+
+.forth-cont-f-d{
+
+}
+
+.forth-cont-s-d{
+    margin-top: 35%;
+
+}
+
+.forth-cont-t-d{
+    margin-top: 35%;
+
+}
+
+.forth-cont-forth-d{
+    margin-top: 35%;
+   
+
+}
+
+.s-s-d{
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 15px;
 }
 
 
