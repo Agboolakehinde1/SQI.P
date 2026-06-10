@@ -108,6 +108,7 @@ a{
     border-radius: 10px;
     background-color: #00208a;
     margin-top: 10px;
+    border: none;
 }
 
 .button-text{
@@ -255,7 +256,7 @@ hr{
 
 
 .top-courses{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     min-height: 70dvh;
     width: 70%;
     margin: auto;
@@ -273,15 +274,16 @@ hr{
 
 
 .first-cont{
-    /* border: 1px solid red; */
+   /* border: 1px solid red; */
     width: 47%;
     min-height: 70dvh;
 
 }
 .first-cont>div{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     min-height: 30dvh;
     border-radius: 15px;
+    margin-top: 10px;
 
 }
 .second-cont{
@@ -298,9 +300,10 @@ hr{
 
 .fcsd{
     background-color: #d5eaf3;
-    box-shadow: 0px 30px 20px 20px #d7ecdb ;
-    height: 39%;
-
+    box-shadow: 0px 30px 20px 20px #d7ecdb;
+    margin: 12% auto;
+    border-radius: 15px;
+    overflow: hidden;
 }
 
 
@@ -308,46 +311,48 @@ hr{
     background-color: #e0d5c0;
     margin-top: 70px;
     box-shadow: 0px 30px 20px 20px #d7ecdb;
-    height: 43%;
+    border-radius: 15px;
+    overflow: hidden;
 }
 
 
-.scfd{
 
+.scfd{
     background-color: #eeefbd;
     box-shadow: 0px 30px 20px 20px #ffdfd9;
     margin-top: 50px;
-    height: 40%;
+    border-radius: 15px;
+    overflow: hidden;
 }
 
 .scsd{
     background-color: #dfd5e8;
     margin-top: 30px;
-    height: 48%;
     box-shadow: 0px 30px 20px 20px #ffdfd9;
-
+    border-radius: 15px;
+    overflow: hidden;
 }
 
 
 
 .fcsd-inner{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 70%;
     margin: 12% auto;
-    padding: auto;
+    /* padding: auto; */
 }
 .second-cont>div{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 100%;
     min-height: 70dvh;
 
 }
 
 .fctd-inner{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 70%;
     margin: 12% auto;
-    padding: auto;
+    /* padding: auto; */
 }
 
 .fctd-inner>img{
@@ -360,10 +365,10 @@ hr{
 }
 
 .scfd-inner{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 71%;
     margin: 10% auto;
-    padding: auto;
+    /* padding: auto; */
 }
 .scfd-inner>img{
     border-radius: 10px;
@@ -372,7 +377,7 @@ hr{
 }
 
 .scsd-inner{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 71%;
      margin: 13% auto;  
     
@@ -488,10 +493,52 @@ hr{
 }
 
 
-
-
-
 .fifth-section{
+    margin-top: 150px;
+
+}
+
+
+
+.h33{
+    font-size: 27px;
+    font-weight: 600;
+}
+
+
+.h33-parent{
+    border: 1px solid;
+    width: 70%;
+    margin: auto;
+}
+.h33-inner{
+    border: 1px solid;
+    width: 55%;
+}
+
+.container{
+    border: 1px solid red;
+    min-height: 40dvh;
+    width: 60%;
+    margin:70px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 200px 1fr);
+    /* grid-template-rows: repeat(3, 1fr); */
+    column-gap: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-flow: colum wrap; */
+}
+
+.container>div{
+    height: 100px;
+}
+
+
+
+
+
+.sixth-section{
     /* border: 1px solid red; */
     width: 100%;
     height: 500px;
@@ -566,6 +613,55 @@ hr{
 .bubu>a{
     color: white;
 }
+
+
+.seventh-section{
+    border: 1px solid red;
+    min-height: 70dvh;
+    width: 80%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.s-s-text{
+    border: 1px solid red;
+    font-size: 38px;
+    font-weight: 600;
+}
+
+
+.third-cont{
+    border: 1px solid red;
+    min-height: 50dvh;
+    width: 30%;
+}
+.third-cont>div{
+    border: 1px solid red;
+    min-height: 20dvh;
+   
+}
+.forth-cont{
+    border: 1px solid red;
+    min-height: 50dvh;
+    width: 30%;
+}
+.forth-cont>div{
+    border: 1px solid red;
+    min-height: 20dvh;
+    
+}
+.fifth-cont{
+    border: 1px solid red;
+    min-height: 70dvh;
+    width: 30%;
+    background-image: url(https://edu.sqi.ng/wp-content/uploads/2023/01/conference_image_15.jpg);
+    background-position: center;
+}
+
+
+
 
 
 
