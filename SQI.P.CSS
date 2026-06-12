@@ -241,9 +241,14 @@ a{
     font-weight: 700;
     
 }
+.span2{
+    font-size: 16px;
+    font-weight: 700;
+    
+}
 
 
-hr{
+.hrr{
     border: none;
     height: 1px;
     background-color: #89cbf7;
@@ -618,7 +623,7 @@ hr{
 .seventh-section{
     border: 1px solid red;
     min-height: 70dvh;
-    width: 80%;
+    width: 70%;
     margin: 100px auto;
     display: flex;
     justify-content: space-between;
@@ -729,6 +734,266 @@ hr{
     font-size: 14px;
     font-weight: 500;
     margin-top: 15px;
+}
+
+
+.nineth-sec{
+
+    border: 1px solid red;
+    min-height: 70dvh;
+    background-color: #090326;
+}
+
+.n-s-h4{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+.n-s-h2{
+    color: white;
+    font-size: 39px;
+    font-weight: 500;
+   
+}
+
+.fh5{
+    margin-top: 10px;
+}
+
+h5{
+    color: #d1851b;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+.n-s-p{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.n-s-parent{
+    border: 1px solid red;
+    width: 70%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.n-s-paren-3{
+    border: 1px solid red;
+    width: 49%;
+}
+
+.hrrr{
+    margin-top: 15px;
+    border: none;
+    height: 1.05px;
+    background-color: #eaae59;
+   
+}
+
+.n-s-button{
+    background: transparent;
+    border: none;
+    margin-top: 30px;
+    /* width: fit-content; */
+}
+
+.n-s-a{
+    font-size: 20px;
+    font-weight: 500;
+    color:#eaa94e ;
+    
+    
+}
+
+.n-s-ahr{
+    border: none;
+    height: 2px;
+    background-color: #d08722;
+    width: 20%;
+    margin-top: 10px;
+    
+
+}
+
+.tenth-sec{
+    border: 1px solid red;
+    min-height: 70dvh;
+    background-color: #000b3f;
+}
+
+.ten-s-h4{
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    
+}
+.ten-s-h2{
+    font-size: 56px;
+    font-weight: 700;
+    color: white;
+    
+}
+.ten-s-p{
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    margin-top: 10px;
+    width: 50%;
+    
+}
+.ten-s-div{
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    margin-top: 20px;
+    /* width: 30%; */
+    
+}
+.ten-s-div2{
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    /* margin-top: 20px; */
+    /* width: 30%; */
+    
+}
+.ten-s-button{
+    background-color: #00208a;
+    height: 55px;
+    width: 140px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 20px;
+    
+}
+.ten-s-a{
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    
+}
+
+.tenth-sec-parent{
+    border: 1px solid red;
+    width: 70%;
+    margin: 90px auto;
+}
+
+
+.eleventh-sec{
+    border: 1px solid red;
+    min-height: 70dvh;
+    background-color: #f0f1ff;
+}
+
+.e-s-paren1{
+    
+    border: 1px solid red;
+    width: 70%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.e-s-h2{
+    font-size: 40px;
+    font-weight: 600;
+    
+}
+.e-s-button{
+    height: 55px;
+    width: 125px;
+    background-color: #00208a;
+    border-radius: 40px;
+    border: none;
+
+
+}
+.e-s-a{
+    color: white;
+
+}
+
+.e-s-div1{
+    min-height: 50dvh;
+    border: 1px solid red;
+    width: 32%;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+.e-s-div2{
+    min-height: 50dvh;
+    border: 1px solid red;
+    width: 32%;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+.e-s-div2 img{
+    height: 250px;
+}
+.e-s-div3 img{
+    height: 250px;
+}
+
+
+.e-s-div3{
+    min-height: 50dvh;
+    border: 1px solid red;
+    width: 32%;
+     overflow: hidden;
+     background-color: #ffffff;
+}
+
+.e-s-paren2{
+    border: 1px solid red;
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+   
+}
+
+
+
+.e-s-aa{
+    
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    /* margin-top: 20px; */
+}
+.e-s-span{
+    font-size: 12px;
+    font-weight: 700;
+    color: #f784a4;
+    /* margin-top: 30px; */
+
+}
+.e-s-p{
+    font-style: 14px;
+    font-weight: 400;
+    color: #806d66;
+    margin-top: 10px;
+
+}
+
+.e-s-div{
+    margin-top: 25px;
+}
+
+
+.e-s-innerp{
+    border: 1px solid red;
+    width: 90%;
+    margin: auto;
 }
 
 
