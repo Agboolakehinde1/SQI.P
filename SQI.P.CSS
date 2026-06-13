@@ -620,7 +620,7 @@ a{
 }
 
 
-.seventh-section{
+.eighth-section{
     border: 1px solid red;
     min-height: 70dvh;
     width: 70%;
@@ -630,7 +630,7 @@ a{
 }
 
 
-.s-s-text{
+.eighth-s-text{
     border: 1px solid red;
     font-size: 38px;
     font-weight: 600;
@@ -680,7 +680,7 @@ a{
 
 
 
-.s-s-p{
+.eighth-s-p{
     font-size: 20px;
     font-weight: 500;
     
@@ -730,7 +730,155 @@ a{
 
 }
 
-.s-s-d{
+
+.seventh-section{
+    border: 1px solid red;
+    min-height: 70dvh;
+    margin-top: 100px;
+}
+
+
+.s-s-p{
+    border: 1px solid red;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 15%;
+    width: 35%;
+    margin-top: 20px;
+   
+}
+.s-s-h2{
+    border: 1px solid red;
+    font-size: 48px;
+    font-weight: 600;
+     width: 70%;
+     margin: auto;
+     padding-left: 20px;
+}
+
+
+.fa-star{
+    color: #fb8e28;
+}
+
+.s-s-parent{
+    border: 1px solid red;
+    width: 68%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.s-s-f-bimg{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    /* padding-left: 30px; */
+}
+
+
+.s-s-f-bimg2{
+    height: 20px;
+    width: 20px;
+    
+
+}
+
+.s-s-f-b-button{
+    background-color: #3475e9;
+    height: 35px;
+    width: 150px;
+    border-radius: 50px;
+    border: none;
+    /* margin-left: 10px; */
+}
+
+.s-s-f-b-a{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.s-s-f-box-inner{
+    /* margin: auto; */
+    border: 1px solid red;
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+}
+
+.s-s-img3{
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+}
+.s-s-img4{
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+}
+
+
+
+.s-s-f-b{
+    border: 1px solid red;
+    width: 320px;
+    height: 200px;
+    
+}
+
+
+.s-s-sbox{
+    border: 1px solid red;
+    width: 320px;
+    height: 200px;
+    overflow-y: scroll;
+    background-color: whitesmoke;
+}
+
+
+.s-s-b3{
+    border: 1px solid red;
+    width: 320px;
+    height: 200px;
+    overflow: scroll;
+    background-color: #fafafa;
+
+}
+
+
+
+
+/* .s-s-div4{
+    height: 30px;
+    width: 130px;
+    background-color: #3475e9;
+    border-radius: 50px;
+    border: none;
+    text-align: center;
+} */
+
+.s-s-div5{
+    margin-left: 50px;
+    font-size: 13px;
+    font-weight: 400;
+}
+.s-s-b3div1{
+    margin-left: 50px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.s-s-a{
+    color: whitesmoke;
+    padding-bottom: 50px;
+    
+}
+
+.eighth-s-d{
     font-size: 14px;
     font-weight: 500;
     margin-top: 15px;
