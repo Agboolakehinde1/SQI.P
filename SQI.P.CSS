@@ -15,10 +15,25 @@ header{
      position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1000;
     height: 80px;
     background-color: white;
-    /* box-shadow: 0px 1px 0.15px 0.2px; */
+    box-shadow: 0px 0.15px 0px 0px ;
 
+}
+
+
+.fa-angle-down{
+
+    font-size: 11px;
+    font-weight: 1000;
+    /* margin-top: 15px; */
+}
+
+.fa-solid{
+    font-size: 100px;
+    margin-left: 50px;
+    
 }
 
 
@@ -119,6 +134,7 @@ a{
 
 .hero-img{
     height: 500px;
+    padding-top: 20px;
 }
 
 .second-sec{
@@ -512,17 +528,17 @@ a{
 
 
 .h33-parent{
-    border: 1px solid;
+    /* border: 1px solid; */
     width: 70%;
     margin: auto;
 }
 .h33-inner{
-    border: 1px solid;
+    /* border: 1px solid; */
     width: 55%;
 }
 
 .container{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     min-height: 40dvh;
     width: 60%;
     margin:70px auto;
@@ -547,10 +563,17 @@ a{
     /* border: 1px solid red; */
     width: 100%;
     height: 500px;
-    background-image: url(./Media/DSC_9054-scaled.jpg);
+     background-image:
+        linear-gradient(
+            to right,
+            rgba(97, 49, 95, 0.8),
+            rgba(0, 4, 66, 0.8)
+        ),
+        url('./Media/DSC_9054-scaled.jpg');
     background-position: center;
     background-size: cover;
     margin-top: 12%;
+    
 }
 
 .parent4{
@@ -621,7 +644,7 @@ a{
 
 
 .eighth-section{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     min-height: 70dvh;
     width: 70%;
     margin: 100px auto;
@@ -631,7 +654,7 @@ a{
 
 
 .eighth-s-text{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     font-size: 38px;
     font-weight: 600;
     height: fit-content;
@@ -644,31 +667,31 @@ a{
 
 
 .third-cont{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     min-height: 50dvh;
     width: 30%;
     margin-top: 9%;
 }
 .third-cont>div{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     min-height: 20dvh;
     width: 90%;
    
 }
 .forth-cont{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     min-height: 50dvh;
     width: 30%;
     margin-top: 20%;
 }
 .forth-cont>div{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     min-height: 20dvh;
     width: 85%;
     
 }
 .fifth-cont{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     min-height: 70dvh;
     width: 30%;
     background-image: url(https://edu.sqi.ng/wp-content/uploads/2023/01/conference_image_15.jpg);
@@ -683,6 +706,7 @@ a{
 .eighth-s-p{
     font-size: 20px;
     font-weight: 500;
+    margin-top: 40px;
     
 }
 
@@ -732,14 +756,14 @@ a{
 
 
 .seventh-section{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     min-height: 70dvh;
     margin-top: 100px;
 }
 
 
 .s-s-p{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     font-size: 14px;
     font-weight: 500;
     margin-left: 15%;
@@ -748,7 +772,7 @@ a{
    
 }
 .s-s-h2{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     font-size: 48px;
     font-weight: 600;
      width: 70%;
@@ -762,7 +786,7 @@ a{
 }
 
 .s-s-parent{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 68%;
     margin: 50px auto;
     display: flex;
@@ -804,7 +828,7 @@ a{
 
 .s-s-f-box-inner{
     /* margin: auto; */
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 70%;
     margin-left: 15%;
     text-align: center;
@@ -824,7 +848,7 @@ a{
 
 
 .s-s-f-b{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 320px;
     height: 200px;
     
@@ -832,7 +856,7 @@ a{
 
 
 .s-s-sbox{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 320px;
     height: 200px;
     overflow-y: scroll;
@@ -841,7 +865,7 @@ a{
 
 
 .s-s-b3{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 320px;
     height: 200px;
     overflow: scroll;
@@ -887,9 +911,10 @@ a{
 
 .nineth-sec{
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
     min-height: 70dvh;
     background-color: #090326;
+    padding-bottom: 20px;
 }
 
 .n-s-h4{
@@ -923,17 +948,27 @@ h5{
 }
 
 .n-s-parent{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 70%;
     margin: 100px auto;
     display: flex;
     justify-content: space-between;
 }
 
+.n-s-f-d{
+
+    margin-top: 100px;
+}
+
+.n-s-paren-3{
+    margin-top: 100px;
+
+}
+
 
 
 .n-s-paren-3{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 49%;
 }
 
@@ -971,9 +1006,10 @@ h5{
 }
 
 .tenth-sec{
-    border: 1px solid red;
+    border: 1px solid transparent;
     min-height: 70dvh;
     background-color: #000b3f;
+    
 }
 
 .ten-s-h4{
@@ -1029,21 +1065,22 @@ h5{
 }
 
 .tenth-sec-parent{
-    border: 1px solid red;
+    border: 1px solid  transparent;
     width: 70%;
     margin: 90px auto;
 }
 
 
 .eleventh-sec{
-    border: 1px solid red;
-    min-height: 70dvh;
+    border: 1px solid transparent;
+    min-height: 90dvh;
     background-color: #f0f1ff;
+    padding-bottom: 15%;
 }
 
 .e-s-paren1{
     
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 70%;
     margin: 100px auto;
     display: flex;
@@ -1072,14 +1109,14 @@ h5{
 
 .e-s-div1{
     min-height: 50dvh;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 32%;
     overflow: hidden;
     background-color: #ffffff;
 }
 .e-s-div2{
     min-height: 50dvh;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 32%;
     overflow: hidden;
     background-color: #ffffff;
@@ -1094,14 +1131,14 @@ h5{
 
 .e-s-div3{
     min-height: 50dvh;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 32%;
      overflow: hidden;
      background-color: #ffffff;
 }
 
 .e-s-paren2{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 70%;
     display: flex;
     margin: 0 auto;
@@ -1139,10 +1176,198 @@ h5{
 
 
 .e-s-innerp{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 90%;
     margin: auto;
 }
+
+
+footer{
+    /* border: 1px solid red; */
+    min-height: 70dvh;
+}
+
+
+
+.icon{
+
+    margin-left: 10px;
+    color: #8b7666;;
+    margin-top: 20px;
+}
+
+
+.footer-parent{
+    /* border: 1px solid red; */
+    width: 75%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.foo-f-c{
+    /* border: 1px solid red; */
+    min-height: 70dvh;
+    width: 18%;
+    text-align: center;
+    
+    
+}
+
+.foo-f-c-inner{
+    /* width: 90%; */
+    /* border: 1px solid red; */
+}
+
+.foo-f-c h3{
+
+    color: #00208a;
+    font-size: 19px;
+    font-weight: 600;
+}
+.foo-f-c h4{
+
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+}
+.foo-f-c a{
+
+    font-size: 15px;
+    font-weight: 500;
+    color: #46b6f6;
+    width: 70%;
+}
+
+.foo-s-c{
+    /* border: 1px solid red; */
+    min-height: 70dvh;
+    width: 18%;
+    
+}
+
+
+.foo-s-c h6{
+
+    font-size: 16px;
+    font-weight: 600;
+}
+.foo-s-c p{
+
+    margin-top: 20px;
+    color: #8b7666;
+}
+.foo-s-c a{
+
+    font-size: 14px;
+    font-weight: 500;
+    color: #76666c;
+    margin-top: 20px;
+}
+
+.foo-t-c{
+    /* border: 1px solid red; */
+    min-height: 70dvh;
+    width: 18%;
+    
+}
+
+
+.foo-t-c h6{
+
+    font-size: 16px;
+    font-weight: 600;
+}
+.foo-t-c p{
+
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 30px;
+    color: #8b7666;
+}
+.foo-t-c strong{
+
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.foo-t-c a{
+
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: #2eb4f5;
+}
+
+.foo-forth-c{
+    /* border: 1px solid red; */
+    min-height: 70dvh;
+    width: 18%;
+    
+}
+
+
+.foo-forth-c h6{
+    font-size: 16px;
+    font-weight: 600;
+}
+.foo-forth-c p{
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 30px;
+    color: #8b7666;
+}
+.foo-forth-c a{
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: #2eb4f5;
+}
+
+.foo-fif-c{
+    /* border: 1px solid red; */
+    min-height: 70dvh;
+    width: 18%;
+    
+}
+
+.foo-fif-c h6{
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+.foo-fif-c p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #8b7666 ;
+    margin-top: 30px;
+    
+}
+.foo-fif-c a{
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: #2eb4f5;
+    
+}
+
+.last-sec{
+    /* border: 1px solid red; */
+    height: 50px;
+    background-color: #050044;
+}
+
+.last-div{
+
+    font-size: 14px;
+    font-weight: 500;
+    color: #fffaf6;
+    margin-top: 25px;
+    margin-left: 220px;
+    
+}
+
 
 
 
