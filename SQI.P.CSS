@@ -79,11 +79,12 @@ a{
     
 }
 
-.hero-section>div{
+.hero-inner{
     /* border: 1px solid red; */
     width: 80%;
     display: flex;
     margin: auto;
+    gap: 40px;
 }
 
 .herobox{
@@ -308,7 +309,7 @@ a{
 
 }
 .second-cont{
-    /* border: 1px solid red; */
+    /* border: 1px solid; */
     width: 47%;
     min-height: 70dvh;
 
@@ -338,12 +339,16 @@ a{
 
 
 
+
+
+
 .scfd{
     background-color: #eeefbd;
     box-shadow: 0px 30px 20px 20px #ffdfd9;
     margin-top: 50px;
     border-radius: 15px;
     overflow: hidden;
+    border: 1px solid;
 }
 
 .scsd{
@@ -352,6 +357,7 @@ a{
     box-shadow: 0px 30px 20px 20px #ffdfd9;
     border-radius: 15px;
     overflow: hidden;
+    border: 1px solid;
 }
 
 
@@ -863,6 +869,19 @@ a{
     background-color: whitesmoke;
 }
 
+.s-s-innerp{
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 10px;
+}
+
+
+.s-s-innerp2{
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 10px;
+}
+
 
 .s-s-b3{
     /* border: 1px solid red; */
@@ -872,9 +891,6 @@ a{
     background-color: #fafafa;
 
 }
-
-
-
 
 /* .s-s-div4{
     height: 30px;
