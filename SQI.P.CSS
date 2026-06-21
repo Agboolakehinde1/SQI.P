@@ -62,7 +62,7 @@ nav{
     width: 230px;
     height: 0px;
     position: absolute;
-    background-color: #ffffff;
+    background-color: #ffffffb8;
     top: 50px;
      font-size: 14px;
     font-weight: 600;
@@ -97,7 +97,7 @@ nav{
 .s-dropdown{
     width: 250px;
     min-height: 0px;
-    background-color: #ffffff;
+    background-color: #ffffff9a;
     position: absolute;
     top: 50px;
     font-size: 13px;
@@ -131,7 +131,7 @@ nav{
 
     width: 230px;
     min-height: 0px;
-    background-color: #ffffff;
+    background-color: #ffffff96;
     position: absolute;
     top: 50px;
     font-size: 13px;
@@ -188,7 +188,7 @@ a{
 .for-dropdown{
      width: 230px;
     min-height: 0px;
-    background-color: #ffffff;
+    background-color: #ffffff92;
     position: absolute;
     top: 50px;
     font-size: 13px;
@@ -1114,12 +1114,14 @@ a{
 }
 
 
-.s-s-sbox{
-    /* border: 1px solid red; */
+.s-s-b1{
     width: 320px;
     height: 200px;
-    overflow-y: scroll;
+    overflow-y: auto;
     background-color: whitesmoke;
+    flex-shrink: 0;
+    flex-grow: 0;
+    flex-basis: auto;
 }
 
 .s-s-innerp{
@@ -1136,13 +1138,50 @@ a{
 }
 
 
-.s-s-b3{
-    /* border: 1px solid red; */
+.s-s-b2{
     width: 320px;
     height: 200px;
-    overflow: scroll;
-    background-color: #fafafa;
-
+    overflow-y: auto;
+    background-color: whitesmoke;
+    flex-shrink: 0;
+    flex-grow: 0;
+    flex-basis: auto;
+}
+.s-s-b3{
+    width: 320px;
+    height: 200px;
+    overflow-y: auto;
+    background-color: whitesmoke;
+    flex-shrink: 0;
+    flex-grow: 0;
+    flex-basis: auto;
+}
+.s-s-b4{
+    width: 320px;
+    height: 200px;
+    overflow-y: auto;
+    background-color: whitesmoke;
+    flex-shrink: 0;
+    flex-grow: 0;
+    flex-basis: auto;
+}
+.s-s-b5{
+    width: 320px;
+    height: 200px;
+    overflow-y: auto;
+    background-color: whitesmoke;
+    flex-shrink: 0;
+    flex-grow: 0;
+    flex-basis: auto;
+}
+.s-s-b6{
+    width: 320px;
+    height: 200px;
+    overflow-y: auto;
+    background-color: whitesmoke;
+    flex-shrink: 0;
+    flex-grow: 0;
+    flex-basis: auto;
 }
 
 /* .s-s-div4{
@@ -1170,6 +1209,47 @@ a{
     padding-bottom: 50px;
     
 }
+
+.testimonials-parent{
+    /* border: 1px solid red; */
+    display: flex;
+    /* gap: 20px; */
+    overflow-x: hidden;
+    width: 70%;
+    height: 230px;
+    align-items: center;
+    /* animation: skedu 1s linear  infinite; */
+
+}
+.testimonials-parent:hover .testimonials-innerp{
+    animation-play-state: paused;
+    
+
+}
+
+.testimonials-innerp{
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 20px;
+     animation: skedu 10s linear  infinite;
+}
+
+@keyframes skedu {
+    from{
+        transform: translateX(-0px);
+    }
+
+    to{
+        transform: translateX(-1000px);
+    }
+
+    
+
+}
+
+
+
+
 
 .eighth-s-d{
     font-size: 14px;
