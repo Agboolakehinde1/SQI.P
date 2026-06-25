@@ -1798,14 +1798,15 @@ footer{
     }
 
     .hero-section{
-margin: 100px auto;        border: 1px solid red;
-        width: 100%;
+        margin: 100px auto;   
+        /* border: 1px solid red; */
+         width: 100%;
     }
 
     .hero-inner{
         display: flex;
         flex-direction: column;
-        border: 1px solid red;
+        /* border: 1px solid red; */
         width: 80%;
         
     }
@@ -1817,7 +1818,8 @@ margin: 100px auto;        border: 1px solid red;
 
     .herobox{
         width: 100%;
-        border: 1px solid red;
+        /* border: 1px solid red; */
+        
     }
 
     .p1{
